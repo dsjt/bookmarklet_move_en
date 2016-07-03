@@ -1,0 +1,1 @@
+javascript:if(document.URL.match("ja.wikipedia.org")){a=document.getElementsByClassName("interlanguage-link interwiki-en");if(a.length){a=a[0].children;for(var i=0;i<a.length;i++){if(a[i].lang=="en"){window.open(a[i].href);break;}}if(i==a.length) alert("No English Page.");}else{alert("No interlanguage-link");}}else{alert("Not ja.wikipedia.org");};
